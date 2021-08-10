@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  background: aqua;
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 20px;
+}
+
+.catalog-title {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.catalog-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10px;
+  gap: 20px;
+}
+
+.catalog-item {
+  flex: 1 200px;
+}
+
+.principal{
+  order: -1;
+}
+
+.logo-image {
+  width:20px;
+}
